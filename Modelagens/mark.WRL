@@ -1,0 +1,22 @@
+#VRML V2.0 utf8
+
+# Produced by 3D Studio MAX VRML97 exporter, Version 11, Revision 0,57
+# Date: Wed May 12 16:04:54 2010
+
+DEF Box01 Transform {
+  translation 0 0 0
+  children [
+      Transform {
+        translation 0 0.5656 0
+        children [
+          Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 0 0.2706 0.3255
+              }
+            }
+            geometry Box { size 1 1.131 1 }
+          }
+    ] }
+  ]
+}
